@@ -1,0 +1,51 @@
+{
+    "id": "basic",
+    "name": "Tracts",
+    "zoom": 1,
+    "pitch": 0,
+    "center": [
+      0,
+      0
+    ],
+    "layers": [
+      {
+        "id": "Census_Tracts7651",
+        "type": "fill",
+        "paint": {
+          "fill-color": "rgba(210, 210, 195, 1)",
+          "fill-opacity": 0.7
+        },
+        "filter": [
+          "all",
+          [
+            "in",
+            "class",
+            "residential",
+            "suburb",
+            "neighbourhood"
+          ]
+        ],
+        "layout": {
+          "visibility": "visible"
+        },
+        "source": "openmaptiles",
+        "source-layer": "Census_Tracts7651"
+      }
+    ],
+    "bearing": 0,
+    "sources": {
+      "openmaptiles": {
+        "url": "https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Census_Tracts7651&STYLES=&CRS={proj}&BBOX={bbox-epsg-3857}&WIDTH=256&HEIGHT=256&srs=EPSG:3857FORMAT=image/png",
+        "type": "raster"
+      },
+      "maptiler_attribution": {
+        "type": "vector",
+        "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>"
+      }
+    },
+    "version": 8,
+    "metadata": {
+      "maptiler:copyright": "This style was generated on MapTiler Cloud. Usage outside of MapTiler Cloud requires valid OpenMapTiles Production Package: https://openmaptiles.com/production-package/ -- please contact us.",
+      "openmaptiles:version": "3.x"
+    }
+  }

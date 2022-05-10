@@ -1,0 +1,21 @@
+{
+    "version": 8,
+    "name": "My raster",
+    "sources": {
+      "raster-source-1": {
+        "type": "raster",
+        "tiles": [
+          "https://wms.zh.ch/OrthoZHWMS?Request=GetMap&layers=ortho_18&bbox={bbox-epsg-3857}&crs=EPSG:3857&format=image/png&width=256&height=256&version=1.3.0"
+        ],
+        "scheme": "tms"
+      }
+    },
+    "layers": [
+      {
+        "id": "raster-layer-1",
+        "type": "raster",
+        "source": "raster-source-1"
+      }
+    ],
+    "id": "my-raster"
+  }

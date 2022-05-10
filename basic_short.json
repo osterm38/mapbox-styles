@@ -7,14 +7,8 @@
       0,
       0
     ],
+    "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kznYvrAC6DrOZXPCW05C",
     "layers": [
-      {
-        "id": "background",
-        "type": "background",
-        "paint": {
-          "background-color": "rgba(224, 224, 208, 1)"
-        }
-      },
       {
         "id": "landuse_residential",
         "type": "fill",
@@ -1104,5 +1098,9 @@
         "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>"
       }
     },
-    "version": 8
+    "version": 8,
+    "metadata": {
+      "maptiler:copyright": "This style was generated on MapTiler Cloud. Usage outside of MapTiler Cloud requires valid OpenMapTiles Production Package: https://openmaptiles.com/production-package/ -- please contact us.",
+      "openmaptiles:version": "3.x"
+    }
   }

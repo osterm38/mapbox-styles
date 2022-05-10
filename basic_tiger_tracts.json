@@ -35,7 +35,10 @@
     "bearing": 0,
     "sources": {
       "openmaptiles": {
-        "url": "https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Census_Tracts7651&STYLES=&BBOX={bbox-epsg-3857}&WIDTH=256&HEIGHT=256&FORMAT=image/png",
+        "tiles": [
+          "https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Census_Tracts7651&STYLES=&BBOX={bbox-epsg-3857}&WIDTH=256&HEIGHT=256&FORMAT=image/png"
+        ],
+        "tilesize": 256,
         "type": "raster"
       },
       "maptiler_attribution": {

@@ -1,0 +1,29 @@
+{
+    "version": 8,
+    "id": "wms-style",
+    "name": "WMS Style",
+    "zoom": 1,
+    "pitch": 0,
+    "bearing": 0,
+    "center": [
+      0,
+      0
+    ],
+    "layers": [
+      {
+        "id": "wms-test-layer",
+        "type": "raster",
+        "source": "wms-test-source",
+        "paint": {}
+      }
+    ],
+    "sources": {
+      "wms-test-source": {
+        "type": "vector",
+        "tiles": [
+          "http://tiles.openseamap.org/seamark/{z}/{x}/{y}.png"
+        ],
+        "maxzoom": 14
+      }
+    }
+  }

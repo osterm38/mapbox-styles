@@ -19,7 +19,7 @@
     ],
     "sources": {
       "wms-test-source": {
-        "type": "vector",
+        "type": "raster",
         "tiles": [
           "http://tiles.openseamap.org/seamark/{z}/{x}/{y}.png"
         ],
